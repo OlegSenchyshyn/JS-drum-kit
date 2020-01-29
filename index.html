@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>JS Drum Kit</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="keys">
+            <div data-key="103" class="key">
+                <kbd>7</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="104" class="key">
+                <kbd>8</kbd>
+                <span class="sound">hihat</span>
+            </div>
+            <div data-key="105" class="key">
+                <kbd>9</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="100" class="key">
+                <kbd>4</kbd>
+                <span class="sound">openhat</span>
+            </div>
+            <div data-key="101" class="key">
+                <kbd>5</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div data-key="102" class="key">
+                <kbd>6</kbd>
+                <span class="sound">ride</span>
+            </div>
+            <div data-key="97" class="key">
+                <kbd>1</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="98" class="key">
+                <kbd>2</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div data-key="99" class="key">
+                <kbd>3</kbd>
+                <span class="sound">tink</span>
+            </div>
+        </div>
+
+        <audio src="sounds/clap.wav" data-key="103"></audio>
+        <audio src="sounds/hihat.wav" data-key="104"></audio>
+        <audio src="sounds/kick.wav" data-key="105"></audio>
+        <audio src="sounds/openhat.wav" data-key="100"></audio>
+        <audio src="sounds/boom.wav" data-key="101"></audio>
+        <audio src="sounds/ride.wav" data-key="102"></audio>
+        <audio src="sounds/snare.wav" data-key="97"></audio>
+        <audio src="sounds/tom.wav" data-key="98"></audio>
+        <audio src="sounds/tink.wav" data-key="99"></audio>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
